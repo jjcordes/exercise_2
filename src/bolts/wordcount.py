@@ -34,7 +34,10 @@ class WordCounter(Bolt):
 
         try:
                 cur = conn.cursor()
-                cur.execute('''CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY     NOT NULL, count INT     NOT NULL);''')
+ 		cur.execute("DROP TABLE IF EXISTS tweetwordcount;")
+		cur.execute("CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY NOT NULL, count INT NOT NULL);")	
+                
+		#cur.execute('''CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY     NOT NULL, count INT     NOT NULL);''')
                 #conn.commit()
                 cur.close()
                 conn.close()
