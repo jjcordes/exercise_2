@@ -78,7 +78,7 @@ class Tweets(Spout):
  
         except Queue.Empty:
             self.log("Empty queue exception ")
-            time.sleep(0.1) 
+            time.sleep(0.5) 
 
     def ack(self, tup_id):
         pass  # if a tuple is processed properly, do nothing
