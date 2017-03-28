@@ -20,6 +20,6 @@ print("Top 20 Words")
 
 cur.execute("SELECT * FROM tweetwordcount ORDER BY count DESC LIMIT 20")
 
-
 for record in cur:
 	print(record[0] + ": " + str(record[1]))
+
