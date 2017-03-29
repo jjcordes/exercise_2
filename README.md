@@ -7,7 +7,7 @@ Steps to run the application
 
 	a. Create and connect to AMI following Lab 6 instructions
 	
-	b. "fdisk -l to find connected EBS store"
+	b. "fdisk -l" to find connected EBS store
 	
 	c. use command like "mount -t ext4 /dev/xvdh /data" to mount it at /data ("df -k" to check)
 	
