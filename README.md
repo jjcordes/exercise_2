@@ -4,8 +4,11 @@ Steps to run the application
 ----------------------------
 
 1. Set up the EC2 AMI with attached EBS volume as described in Exercise 2 instructions
-	a. AMI from Lab 6
+
+	a. Create AMI following Lab 6 instructions
+	
 	b. "pip install psycopg2==2.6.2"
+	
 	c. "pip install tweepy"
 	
 2. As root user, start Postgres with "start_postgres.sh" 
