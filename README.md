@@ -36,6 +36,7 @@ Try:
 
 	10. Type "python histogram.py 3 8" to get a list of words with counts between 3 and 8 (and see top 20 words at the end)
 
+
 Except:
 
 	If there's a bunch of empty queue exceptions, send thoughts and prayers to Twitter, and return to step 5	
