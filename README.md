@@ -29,14 +29,16 @@ Try:
 	6. Type "sparse run": a program will start collecting the words and counts being tweeted from Twitter
 	
 	7. Use Control-Z to stop it when you've collected enough data
+	
+	8. Type "python finalresults.py (word of interest)" to see how many of a particular word was tweeted in that time
+
+	9. Type "python finalresults.py" to get the entire list of words and counts
+
+	10. Type "python histogram.py 3 8" to get a list of words with counts between 3 and 8 (and see top 20 words at the end)
 
 Except:
 
 	If there's a bunch of empty queue exceptions, send thoughts and prayers to Twitter, and return to step 5	
 
-8. Type "python finalresults.py (word of interest)" to see how many of a particular word was tweeted in that time
 
-9. Type "python finalresults.py" to get the entire list of words and counts
-
-10. Type "python histogram.py 3 8" to get a list of words with counts between 3 and 8 (and see top 20 words at the end)
 
